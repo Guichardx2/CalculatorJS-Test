@@ -24,7 +24,7 @@ function div(a, b) {
   return a / b;
 }
 function square(a) {
-  return Math.sqrt(a || b);
+  return Math.sqrt(a);
 }
 function pow(a, b) {
   return a ** b;
