@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Calculadora Useletric</title>
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+    <!-- Sessão de conteúdo geral -->
+    <section class="container">
+        <main class="content">
+            <!-- Título da página -->
+            <header class="title">
+                <h1>Calculadora</h1>
+            </header>
+            <!-- Corpo da calculadora -->
+            <div class="calcbody">
+                <div class="first-value">
+                    <label for="num1">Primeiro valor</label>
+                    <input type="text" id="num1" name="num1" placeholder="Número 1" required>
+                </div>
+                <div class="operator">
+                    <label for="operator">Operador</label>
+                    <select name="operator" id="operator" name="operator">
+                        <option value="Escolha">Escolha</option>
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">*</option>
+                        <option value="/">/</option>
+                        <option value="^">^</option>
+                        <option value="%">%</option>
+                        <option value="√">√</option>
+                    </select>
+                </div>
+               <div class="second-value">
+                   <label for="num2">Segundo valor</label>
+                   <input type="text" id="num2" name="num2" placeholder="Número 2" required>
+               </div>
+            </div>
+            <button id="calculate">Calcular</button>
+            <div class="calcresult">
+                <h3 class="result" id="result">Resultado: </h3>  
+            </div>
+        </main>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
